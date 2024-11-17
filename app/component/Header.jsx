@@ -55,7 +55,7 @@ function Header() {
             <HIconsOutline.ShoppingBagIcon className='size-6'/>
         </div>
     </div>
-    <div className='flex flex-wrap text-center  space-x-4 uppercase pt-10  text-sm items-center justify-center p-2'>
+    <div className='flex flex-wrap text-center  space-x-8 uppercase font-semibold pt-10  text-sm items-center justify-center p-2'>
         
         {MENU.map((item,index)=>(
             <h3 key={index}>{item.name}</h3>
